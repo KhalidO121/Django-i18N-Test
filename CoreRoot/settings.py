@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rosetta',
+    'blog',
 ]
 
 MIDDLEWARE = [
@@ -127,9 +129,9 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LANGUAGES = [
-    ('en_GB', _('English')),
-    ('fr_FR', _('French')),
-    ('es_ES', _('Spanish')),
+    ("en-gb", _("British English")),
+    ("fr", _("French")),
+    ("es", _("Spanish")),
 ]
 
 LOCALE_PATHS = [

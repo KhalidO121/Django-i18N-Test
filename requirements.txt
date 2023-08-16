@@ -1,0 +1,4 @@
+Python == 3.8.16
+Django == 4.1.0
+django-rosetta == 0.9.8
+python-gettext == 5.0
